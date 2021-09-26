@@ -1,0 +1,155 @@
+
+/*utility */
+.tombol{
+    text-transform: uppercase;
+}
+
+/*Jumbotron*/
+.jumbotron{
+    background: url('images/bg.jpg');
+    background-size:cover;
+    height: 700px;
+    text-align:center;
+    margin-bottom:0px;
+}
+.jumbotron .display-4{
+    margin-top:150px;
+    color: white;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0,9);
+}
+
+.jumbotron .display-5 {
+    color: white;
+    margin-bottom: 50px;
+}
+.jumbotron a{
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    margin: auto;
+}
+ /*about */
+.jumbotron-about{
+    background:white;
+}
+
+.jumbotron-about .card{
+    display:inline-block;
+    margin: 10px;
+    border: solid 1px;
+}
+.about-container{
+    padding: 10px;
+    margin-top:10px;
+}
+.about-container h2{
+    margin-bottom: 30px;
+}
+
+/*booking*/
+.jumbotron-booking .card{
+    display:inline-block;
+    margin: 10px;
+    border-radius: 10px;
+}
+.booking-container{
+    padding: 10px;
+    margin-top:10px;
+}
+.booking-container h2{
+    margin-bottom: 30px;
+    color: white;
+}
+
+/*form*/
+form {
+    box-sizing: border-box;
+    padding: 10px;
+    background: rgb(27, 27, 27, 0.9);
+    color: white;
+    border-radius:10px;
+}
+
+form .form-check p{
+    text-align: left;
+    color: white;
+    margin-left: -20px;
+}
+form .form-check p a{
+    color: blue;
+}
+
+
+/*Desktop*/
+@media (min-width: 992px) {
+    .navbar-brand, .nav-link {
+        color: white !important;
+    }
+    .nav-link{
+        margin-right: 20px;
+        text-transform:uppercase;
+        color: white;
+    }
+    .nav-link:hover{
+        border-bottom: solid 3px blue;
+        transition: 1s ease-in;
+    }
+    .jumbotron{
+        margin-top: -120px;
+        background: url('images/bg.jpg');
+        background-size:cover;
+        height: 700px;
+        text-align:center;
+        margin-bottom:0px;
+    }
+    .jumbotron .display-4{
+        font-weight:500;
+    }
+
+    /*form*/
+    form {
+        box-sizing: border-box;
+        padding: 10px;
+        background: rgb(27, 27, 27, 0.9);
+        width:400px;
+        position:relative;
+        top: 100px;
+        left: 330px;
+        color: white;
+        border-radius:10px;
+    }
+
+    /* card */
+    .jumbotron-about .card{
+        display:inline-block;
+        margin: 10px;
+        border: solid 1px;
+    }
+    .about-container{
+        padding: 10px;
+        margin-top:80px;
+    }
+    .about-container h2{
+        margin-bottom:30px;
+        color: white !important;
+    }
+
+    /* booking */
+    .jumbotron-booking .card{
+        display:inline-block;
+        margin: 10px;
+        border: solid 1px;
+    }
+    .booking-container{
+        padding: 10px;
+        margin-top:90px;
+    }
+    .booking-container h2{
+        margin-bottom:50px;
+        color: white !important;
+    }
+}
+
+/*  mobile */
+
+
